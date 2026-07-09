@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MINAORA | Luxury Jewelry E-Store Prototype
 
-## Getting Started
+A high-fidelity, interactive frontend prototype built for **Minaora Fine Jewelry**.
 
-First, run the development server:
+✨ **Live Demo:** [https://minaora.vercel.app/](https://minaora.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Design Philosophy & Brand Identity
+* **Color Palette:** Built around Minaora's exact brand logo background (`#FAF7F0`), contrasted with deep charcoal (`#111111`) and muted champagne gold accents (`#C5A880`).
+* **Typography:** Editorial-grade serif headers paired with crisp, clean sans-serif tracking for navigation and micro-copy, mimicking high-end luxury fashion publications.
+* **Layout:** Generous white space, thin structural borders, and standard luxury-brand aspect ratios (3:4 and 1:1) for product photography.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Key Interactive Features
+* **Sticky Premium Navigation:** A blur-filtered navigation header that stays fixed while scrolling, keeping the brand mark and cart accessible at all times.
+* **Dynamic Cart Drawer:** A fully interactive sliding side-cart. Clicking "Cart" or "+ Quick Add" on items slides open the bag overlay, updating the item quantity and subtotal seamlessly in real-time.
+* **Two-State Image Hover:** Built to support editorial dynamic imagery—hovering over the primary product card reveals a detailed secondary macro/lifestyle angle.
+* **Fully Responsive:** Tailored layout states for desktop, tablet, and mobile viewing to ensure a flawless experience on client devices.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Tech Stack
+* **Framework:** [Next.js](https://nextjs.org/) (App Router)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Language:** TypeScript
+* **Deployment:** [Vercel](https://vercel.com)
